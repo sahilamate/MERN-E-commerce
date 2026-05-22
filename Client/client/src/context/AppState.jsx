@@ -14,7 +14,9 @@ const AppState = (props) => {
   const [cart, setCart] = useState([])
   const [reload, setReload] = useState(false)
   const [userAddress, setUserAddress] = useState("false")
-  const url = "http://localhost:3000/api"
+  // const url = "http://localhost:3000/api"
+  const url = "https://mern-e-commerce-xvfx.onrender.com/api"
+
 
   useEffect(() => {
     const fetchDataFromAPI = async () => {
