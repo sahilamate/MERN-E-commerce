@@ -7,11 +7,11 @@ const Profile = () => {
     const {user} = useContext(AppContext)
     console.log(user)
   return (
-    <div>   
+    <div className='text-center'>   
         <p>{user.name}</p>
         <p>{user.email}</p>
         
-        </div>
+    </div>
   )
 }
 
